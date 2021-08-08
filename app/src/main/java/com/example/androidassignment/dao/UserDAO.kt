@@ -1,4 +1,4 @@
-package com.example.androidassignment.DAO
+package com.example.androidassignment.dao
 
 import com.example.androidassignment.entity.User
 

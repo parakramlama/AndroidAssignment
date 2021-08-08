@@ -3,8 +3,7 @@ package com.example.androidassignment.api
 object ServiceBuilder {
     //    private const val BASE_URL =
 //            "http://localhost:90/"
-    private const val BASE_URL =
-        "http://10.0.2.2:90/"
+    private const val BASE_URL = "http://10.0.2.2:90/"
     var token : String? = null
     var id:String?=null
     private val logger = HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
