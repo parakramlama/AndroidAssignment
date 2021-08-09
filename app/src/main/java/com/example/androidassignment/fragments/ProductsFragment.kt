@@ -11,6 +11,8 @@ import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidassignment.R
+import com.example.androidassignment.adapter.ProductAdapter
+import com.example.androidassignment.db.ProductDB
 
 class ProductsFragment : Fragment() {
 
