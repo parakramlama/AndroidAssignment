@@ -1,8 +1,11 @@
 package com.example.androidassignment.repository
 
+import com.example.androidassignment.api.CartAPI
 import com.example.androidassignment.api.MyApiRequest
+import com.example.androidassignment.api.ServiceBuilder
+import com.example.androidassignment.response.CartResponse
 
-class ClassRepository (): MyApiRequest() {
+class CartRepository (): MyApiRequest() {
     private val cartAPI= ServiceBuilder.buildService(CartAPI::class.java)
 
     //Insert Product To cart

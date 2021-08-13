@@ -12,6 +12,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidassignment.entity.Cart
+import com.example.androidassignment.repository.CartRepository
 
 class CartAdapter(
     var listCart: MutableList<Cart>,
