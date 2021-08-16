@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAssignment">
         <activity
+            android:name=".CheckoutActivity"
+            android:exported="true" />
+        <activity
             android:name=".CartActivity"
             android:exported="true" />
         <activity
