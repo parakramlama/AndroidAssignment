@@ -7,7 +7,9 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.androidassignment.adapter.CheckoutAdapter
 import com.example.androidassignment.entity.Cart
+import com.example.androidassignment.repository.CartRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
