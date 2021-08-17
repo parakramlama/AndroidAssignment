@@ -9,8 +9,10 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.androidassignment.adapter.CartAdapter
 import com.example.androidassignment.entity.Cart
 import com.example.androidassignment.entity.Product
+import com.example.androidassignment.repository.CartRepository
 
 class CartActivity : AppCompatActivity() {
 
