@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.androidassignment.adapter.SingleProductAdapter
+import com.example.androidassignment.repository.SingleProductRepository
 
 class ViewSingleProductActivity : AppCompatActivity() {
 
