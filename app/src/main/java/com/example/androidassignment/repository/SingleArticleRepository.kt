@@ -5,7 +5,7 @@ import com.example.androidassignment.api.ServiceBuilder
 import com.example.androidassignment.api.SingleArticleAPI
 import com.example.androidassignment.response.ArticleResponse
 
-class SingleArticleResponse : MyApiRequest() {
+class SingleArticleRepository : MyApiRequest() {
     private val singleArticleAPI = ServiceBuilder.buildService(SingleArticleAPI::class.java)
 
     //Display Single Article

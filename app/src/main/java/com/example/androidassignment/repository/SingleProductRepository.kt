@@ -2,6 +2,7 @@ package com.example.androidassignment.repository
 
 import com.example.androidassignment.api.MyApiRequest
 import com.example.androidassignment.api.ServiceBuilder
+import com.example.androidassignment.api.SingleProductAPI
 import com.example.androidassignment.response.ProductResponse
 
 class SingleProductRepository : MyApiRequest() {
