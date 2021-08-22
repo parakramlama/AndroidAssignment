@@ -1,5 +1,7 @@
 package com.example.androidassignment.api
 
+import com.example.androidassignment.response.ProductResponse
+
 interface ProductAPI {
     @GET("product/show/")
     suspend fun getAllProducts(

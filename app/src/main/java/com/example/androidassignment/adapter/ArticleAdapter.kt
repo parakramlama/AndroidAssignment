@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidassignment.R
+import com.example.androidassignment.ViewSingleArticleActivity
 import com.example.androidassignment.entity.Article
 
 class ArticleAdapter (

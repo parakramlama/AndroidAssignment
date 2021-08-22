@@ -1,6 +1,7 @@
 package com.example.androidassignment.db
 
 import android.content.Context
+import com.example.androidassignment.dao.ProductDAO
 import com.example.androidassignment.entity.Product
 
 @Database(

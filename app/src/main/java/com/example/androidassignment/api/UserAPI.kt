@@ -1,5 +1,8 @@
 package com.example.androidassignment.api
 
+import com.example.androidassignment.entity.User
+import com.example.androidassignment.response.LoginResponse
+
 interface UserAPI {
     //Register user
     @POST("user/insert")

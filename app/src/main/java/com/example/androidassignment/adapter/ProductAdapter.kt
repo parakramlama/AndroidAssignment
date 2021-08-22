@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.androidassignment.R
+import com.example.androidassignment.ViewSingleProductActivity
 import com.example.androidassignment.entity.Product
 
 class ProductAdapter (
@@ -40,7 +41,7 @@ class ProductAdapter (
         holder.tvProductName.text = product.product_name
         holder.tvProductName.setOnClickListener{
             val id= product._id
-            val intent = Intent(context,ViewSingleProductActivity::class.java)
+            val intent = Intent(context, ViewSingleProductActivity::class.java)
             context.startActivity(intent.putExtra("product",id))
         }
         holder.imgProduct.setOnClickListener{

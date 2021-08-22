@@ -1,5 +1,8 @@
 package com.example.androidassignment.api
 
+import com.example.androidassignment.response.ArticleResponse
+import com.example.androidassignment.response.ImageResponse
+
 interface ArticleAPI {
     @GET("article/show")
     suspend fun getAllArticles(

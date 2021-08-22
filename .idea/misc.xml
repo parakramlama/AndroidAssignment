@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/activity_cart.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/activity_checkout.xml" value="0.1" />
@@ -15,9 +16,13 @@
         <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/activity_update_user.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/activity_view_single_article.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/activity_view_single_product.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/articles_fragment.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/custom_article_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/custom_cart_layout.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/custom_checkout_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/custom_product_layout.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/custom_single_article_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/custom_single_product_layout.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/Desktop/Android/app/src/main/res/layout/products_fragment.xml" value="0.1" />
       </map>
     </option>

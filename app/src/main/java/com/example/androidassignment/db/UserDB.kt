@@ -1,6 +1,7 @@
 package com.example.androidassignment.db
 
 import android.content.Context
+import com.example.androidassignment.dao.UserDAO
 import com.example.androidassignment.entity.User
 
 @Database(

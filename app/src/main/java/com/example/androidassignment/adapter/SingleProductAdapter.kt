@@ -13,6 +13,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.example.androidassignment.Notifications.Notification
+import com.example.androidassignment.R
+import com.example.androidassignment.entity.Product
+import com.example.androidassignment.repository.CartRepository
 
 class SingleProductAdapter(
     private val lstProducts: List<Product>,

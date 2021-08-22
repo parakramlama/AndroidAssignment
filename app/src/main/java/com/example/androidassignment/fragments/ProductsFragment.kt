@@ -10,9 +10,11 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.androidassignment.CartActivity
 import com.example.androidassignment.R
 import com.example.androidassignment.adapter.ProductAdapter
 import com.example.androidassignment.db.ProductDB
+import com.example.androidassignment.repository.ProductRepository
 
 class ProductsFragment : Fragment() {
 
@@ -35,7 +37,7 @@ class ProductsFragment : Fragment() {
         productViewModel = ViewModelProvider(this,viewModelFactory).get(ProductViewModel::class.java)
 
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_products, container, false)
+        val view = inflater.inflate(R.layout.products_fragment, container, false)
         recyclerView = view.findViewById(R.id.productRecycler)
         btnCart = view.findViewById(R.id.btnCart)
 
