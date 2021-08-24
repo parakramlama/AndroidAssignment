@@ -19,11 +19,10 @@ class ArticlesFragment : Fragment() {
         fun newInstance() = ArticlesFragment()
     }
 
-
+    private lateinit var viewModel: ArticleViewModel
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: ArticleAdapter
 
-    private lateinit var viewModel: ArticlesViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

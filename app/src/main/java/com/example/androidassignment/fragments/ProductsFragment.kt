@@ -22,7 +22,7 @@ class ProductsFragment : Fragment() {
         fun newInstance() = ProductsFragment()
     }
 
-    private lateinit var viewModel: ProductsViewModel
+    private lateinit var viewModel: ProductViewModel
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: ProductAdapter
     private lateinit var btnCart: Button
