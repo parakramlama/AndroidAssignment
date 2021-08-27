@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "AndroidAssignment"
 include ':app'
+include ':wearables'
